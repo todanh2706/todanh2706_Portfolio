@@ -6,8 +6,8 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+        <blockquote className="blockquote mb-0" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <p style={{ textAlign: "center" }}>
             Hi everyone! I’m <span className="purple">Danh To Huu</span>{" "}
             from <span className="purple">Ho Chi Minh City, Vietnam</span>.
             <br />
@@ -20,7 +20,7 @@ function AboutCard() {
             creative and inspired:
           </p>
 
-          <ul>
+          <ul style={{ padding: 0, display: "flex", flexDirection: "column", alignItems: "flex-start", marginTop: "10px", marginBottom: "20px" }}>
             <li className="about-activity">
               <ImPointRight /> Playing Games 🎮
             </li>
@@ -32,10 +32,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(155 126 172)", textAlign: "center" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer" style={{ textAlign: "center" }}>Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
