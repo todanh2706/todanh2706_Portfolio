@@ -13,36 +13,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I am a highly motivated <b className="purple">Software Engineering student</b> at
+              <b className="purple"> VNU-HCM</b> with a strong foundation in backend architecture
+              and AI-native development. I possess a builder's mindset and hands-on experience shipping
+              scalable MVPs and architecting robust databases.
               <br />
               <br />
-              I’m proficient in
+              I am proficient in languages like
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  TypeScript, Java, C/C++, JavaScript{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I love leveraging modern AI tooling to accelerate development cycles.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include developing robust
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Backend Architectures and AI-integrated Workflows,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              while also building engaging user experiences.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Whenever possible, I love building scalable systems with
+              <b className="purple"> Spring Boot</b>, <b className="purple">Node.js</b>, and modern frontend frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
+                <b className="purple">ReactJS</b> and{" "}
                 <b className="purple">Next.js</b>.
               </i>
             </p>
