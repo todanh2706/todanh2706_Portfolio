@@ -7,7 +7,10 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import docommunity from "../../Assets/Projects/docommunity.png"
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import javaremotedirmonitor from "../../Assets/Projects/java_remote_directory_monitor.png"
+import javaslangwords from "../../Assets/Projects/java_slangwords.png"
+import onlineauction from "../../Assets/Projects/online_auction.png"
+
 
 function Projects() {
   return (
@@ -26,63 +29,47 @@ function Projects() {
               imgPath={docommunity}
               isBlog={false}
               title="Docommunity"
-              description="Docommunity is a full-stack web application for document creation, sharing, and community collaboration. It features a React, Vite, and TailwindCSS frontend with Markdown and CodeMirror for rich text editing. The backend utilizes Spring Boot, PostgreSQL, and Spring Security, offering document management, team collaboration, and AI-assisted content features."
+              description="Docommunity is a comprehensive full-stack web application designed to facilitate seamless document sharing, community collaboration, and personal workspace organization. Built with a responsive React and Vite frontend alongside a robust Java Spring Boot backend, the platform provides users with an intuitive environment to securely upload, categorize, and discover resources. Key features include a dynamic tagging system, interactive community feeds with real-time commenting and liking mechanisms, and detailed user profiles, all supported by a high-performance PostgreSQL database architecture."
               ghLink="https://github.com/todanh2706/Docommunity"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={javaremotedirmonitor}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Java Remote Directory Monitor"
+              description="Java Remote Directory Monitor is a networked desktop application designed for real-time monitoring of file system changes across distributed client machines. Built with Java Swing and TCP Sockets, the system allows a central server to remotely track file creation, deletion, and modification events across multiple clients simultaneously using multi-threading. It leverages Java NIO's WatchService for high-performance background file tracking and implements a custom modular messaging protocol to ensure reliable client-server communication."
+              ghLink="https://github.com/todanh2706/Java_Remote_Directory_Monitor.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={javaslangwords}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Java SlangWords"
+              description="Java SlangWords is a graphical desktop application built with JavaFX and Maven that enables users to look up, learn, and manage slang vocabulary. It features a comprehensive CRUD management system for slang words, a daily Slang of the Day showcase, and an interactive quiz module for guessing words and definitions. The application utilizes Java object serialization to persistently save user edits and search histories, offering an intuitive interface for an engaging learning experience."
+              ghLink="https://github.com/todanh2706/Java_SlangWords.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={onlineauction}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Online Aution Website"
+              description="WebDev_Project is a full-stack online auction application designed to provide users with a secure and dynamic bidding platform. Built using React on the frontend and an Express.js Node backend, it interfaces with a PostgreSQL database via Sequelize. The platform features user authentication, a robust product catalog, personalized watchlists, a user feedback rating system, and advanced full-text search capabilities. Containerized with Docker, the architecture ensures smooth deployment and reliable performance for handling concurrent e-commerce transactions."
+              ghLink="https://github.com/todanh2706/WebDev_Project.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Restore File Project"
+              description="RestoreFile_project is a low-level C++ utility software developed for Windows to recover deleted files natively from storage drives. Utilizing the Strategy Design Pattern, it dynamically detects volume formats and applies specialized algorithms for both NTFS and FAT32 file systems. The application directly interfaces with the Windows API to parse Boot Sectors, decode Master File Table (MFT) records, resolve Long File Names (LFN), and reconstruct raw cluster data, restoring lost files efficiently from raw disk sectors."
+              ghLink="https://github.com/todanh2706/RestoreFile_project.git"
             />
           </Col>
         </Row>
