@@ -513,6 +513,125 @@ button:focus {
   box-shadow: 0 3px 3px 5px rgba(173, 155, 68, 0.65) !important;
 }
 
+.project-card-view {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(212, 160, 23, 0.2) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 5px 3px rgba(136, 119, 53, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #d4a017, #f0c040, #d4a017);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem !important;
+  z-index: 0;
+}
+
+.project-card-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  color: #d4a017;
+  opacity: 0.7;
+}
+
+.project-card-view .card-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  color: #f0c040 !important;
+}
+
+.project-card-actions {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(144, 129, 52, 0.561) !important;
+}
+
+.project-card-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #d4a017, #f0c040, #d4a017);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem !important;
+}
+
+.project-card-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  color: #d4a017;
+  opacity: 0.7;
+}
+
+.project-card-view .card-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  color: #f0c040 !important;
+}
+
+.project-card-actions {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
